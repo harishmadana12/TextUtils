@@ -19,7 +19,7 @@ def analyzer(request):
     params = ""
     # checking the condition
     if removepunc == "on":
-        punc = '''!@#$%^&*()-[]:;"',_<>'''
+        punc = '''!@#$%^&*()-[]:;"',._<>'''
         analyzed = ""
         for char in tex:
             if char not in punc:
